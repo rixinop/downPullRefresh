@@ -74,7 +74,7 @@
 
 			myScroll = new iScroll("wrapper", {
 				scrollbarClass: "myScrollbar" /* 重要样式 */,
-				useTransition: false /* 此属性不知用意，本人从true改为false */,
+				useTransition: true /* 此属性不知用意，本人从true改为false */,
 				topOffset: pullDownOffset,
 				onRefresh: function () {
 					if (pullDownEl.className.match("loading")) {
